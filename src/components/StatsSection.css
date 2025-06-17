@@ -1,0 +1,23 @@
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 20px;
+  min-width: 150px;
+}
+
+.stat-box h2 {
+  font-size: 32px;
+  color: #0d3b66;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #555;
+}

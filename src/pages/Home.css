@@ -1,0 +1,49 @@
+.hero-section {
+  padding: 50px;
+  background-color: #e8f4f8;
+  text-align: center;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.search-section input, .search-section button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.services-section, .team-section, .testimonials-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.services-grid, .team-grid, .testimonials-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card, .team-member, .testimonial {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

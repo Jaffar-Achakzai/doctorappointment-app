@@ -1,0 +1,32 @@
+.testimonials-section {
+  padding: 50px 20px;
+  background-color: #e8f4f8;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.testimonial {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #444;
+}
+
+.testimonial strong {
+  display: block;
+  margin-top: 10px;
+  color: #0d3b66;
+}
