@@ -5,13 +5,23 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2 className="logo">HealthCare</h2>
-      <ul className="nav-links">
+      <div className="navbar-left">
+        <img src="/logo192.png" alt="Logo" className="logo" />
+        <span className="brand-name">Healthcare</span>
+      </div>
+
+      <ul className="navbar-center">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/services">Service</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/blogs">Blogs</Link></li>
       </ul>
+
+      <div className="navbar-right">
+        <Link to="/signup" className="signup-link">Sign Up</Link>
+        <Link to="/login" className="login-button">Log In</Link>
+      </div>
     </nav>
   );
 };

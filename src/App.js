@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 import "./components/Navbar";
 
 
+
 function App() {
   return (
     <Router>
@@ -19,9 +20,11 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        {/* more routes as needed */}
       </Routes>
     </Router>
   );
 }
 
 export default App;
+

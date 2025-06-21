@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 12px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0096a0;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.navbar-center li a:hover,
+.navbar-center li a:focus {
+  color: #0096a0;
+  border-bottom: 2px solid #0096a0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #0096a0;
+  font-weight: 500;
+}
+
+.login-button {
+  text-decoration: none;
+  background-color: #0096a0;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #007b88;
+}
