@@ -30,3 +30,8 @@
   margin-top: 10px;
   color: #0d3b66;
 }
+.testimonials-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9; /* ✅ light grey like other sections */
+  text-align: center;
+}

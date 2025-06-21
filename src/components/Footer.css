@@ -1,0 +1,112 @@
+.footer {
+  background-color: #007E85;
+  padding: 40px 20px 20px;
+  margin-top: 40px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer p,
+.footer h4 {
+  color: #ffffff;
+  margin: 8px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 8px 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #b2f2f0;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .footer-content,
+  .team-grid,
+  .search-form,
+  .search-results,
+  .hero-content {
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-links,
+  .footer-contact,
+  .team-card,
+  .doctor-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-form input,
+  .search-form select,
+  .search-form button,
+  .appointment-form input,
+  .appointment-form select,
+  .appointment-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

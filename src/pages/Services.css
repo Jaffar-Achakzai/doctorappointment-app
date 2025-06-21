@@ -1,0 +1,46 @@
+.services-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.services-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.appointment-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.appointment-form button {
+  background-color: #007e85;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.appointment-form button:hover {
+  background-color: #005f63;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
